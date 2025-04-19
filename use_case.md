@@ -1,8 +1,13 @@
-##
+## Basic Usage
 
-- change theme: <leader>ft
-- github :copilot auth
+- change theme: `<Leader>ft`
+- github copilot set `:Copilot auth`
 
-## added other plugin
+## Added other plugin
 
 - venv-selector: for python venv change
+- complier.nvim: for run code in nvim instead of terminal
+
+# use case:
+
+1. standard alone python file
