@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
@@ -72,7 +72,9 @@ return {
           end,
           desc = "Close buffer from tabline",
         },
-
+        ["<F6>"] = { "<cmd>CompilerOpen<CR>", desc = "Open Compiler", silent = true },
+        ["<F18>"] = { "<cmd>CompilerStop<cr><cmd>CompilerRedo<cr>", desc = "Stop Compiler", silent = true }, -- F18 is Shift+<F6>
+        ["<F19>"] = { "<cmd>CompilerToggleResults<CR>", desc = "Close Compiler", silent = true },
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },
