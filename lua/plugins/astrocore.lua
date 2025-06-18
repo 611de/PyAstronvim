@@ -75,10 +75,14 @@ return {
         ["<F6>"] = { "<cmd>CompilerOpen<CR>", desc = "Open Compiler", silent = true },
         ["<F18>"] = { "<cmd>CompilerStop<cr><cmd>CompilerRedo<cr>", desc = "Stop Compiler", silent = true }, -- F18 is Shift+<F6>
         ["<F19>"] = { "<cmd>CompilerToggleResults<CR>", desc = "Close Compiler", silent = true },
+        ["<Leader>mf"] = { "<cmd>Glow<CR>", desc = "Markdown Preview Float" },
+        ["<Leader>mp"] = { "<cmd>PeekOpen<CR>", desc = "Markdown Preview Right" },
+        ["<Leader>mc"] = { "<cmd>PeekClose<CR>", desc = "Markdown Preview Close" },
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },
-        ["<Leader>v"] = { desc = "PyVenv Selector" },
+        -- ["<Leader>v"] = { desc = "PyVenv Selector" },
+        ["<Leader>m"] = { desc = "Markdown" },
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,

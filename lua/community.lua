@@ -18,6 +18,8 @@ return {
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.fuzzy-finder.telescope-nvim" },
   { import = "astrocommunity.programming-language-support.rest-nvim" },
+  { import = "astrocommunity.markdown-and-latex.glow-nvim" },
+  { import = "astrocommunity.markdown-and-latex.peek-nvim" },
   -- { import = "astrocommunity.code-runner.molten-nvim" },
   -- import/override with your plugins folder
 }
