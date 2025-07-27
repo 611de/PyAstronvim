@@ -20,6 +20,7 @@ return {
   { import = "astrocommunity.programming-language-support.rest-nvim" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
   { import = "astrocommunity.markdown-and-latex.peek-nvim" },
+  { import = "astrocommunity.game.leetcode-nvim" },
   -- { import = "astrocommunity.code-runner.molten-nvim" },
   -- import/override with your plugins folder
 }
